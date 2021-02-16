@@ -1,6 +1,6 @@
 {
   "name": "np-if",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Conditional render component for React",
   "main": "./src/NPIF.js",
   "license": "GPLV3",

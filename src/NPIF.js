@@ -17,7 +17,7 @@ class NPIf extends React.Component {
         if(!this.props.children){
             return null;
         }
-        const children = this.props.children.type === Array ? this.props.children : [this.props.children];
+        const children = Array.isArray(this.props.children) ? this.props.children : [this.props.children];
         if(this.props.condition){
             return children.filter((el) => el.type !== NPElse);
         }else{

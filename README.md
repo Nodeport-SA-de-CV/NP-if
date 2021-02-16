@@ -1,12 +1,12 @@
 # NP-if
 Conditional render component for React
 
-####Motivation:
+#### Motivation:
 We wrote this component due the lack of React's conditional rendering support.
 We intend to create a component that works similar to Angular's *ngIf function.
 
 
-####Usage:
+#### Usage:
 
 ```javascript
     import NPIf from "np-if";
